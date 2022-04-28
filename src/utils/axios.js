@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-    baseURL: "http://localhost:8080/" // THE API (backend) URL
+    baseURL: "https://amazon-server-practice.herokuapp.com/" // THE API (backend) URL
 });
 
 export default instance;
